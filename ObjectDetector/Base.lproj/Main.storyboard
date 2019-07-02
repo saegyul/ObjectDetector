@@ -40,6 +40,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="accuracy" destination="PWJ-sf-wg2" id="TuA-Xc-IpL"/>
+                        <outlet property="detectedObj" destination="JWw-nR-4ep" id="qza-e6-V46"/>
+                        <outlet property="videoPreview" destination="6Fk-py-0Zm" id="mSY-rw-0WB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

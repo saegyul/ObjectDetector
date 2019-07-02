@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD78FC0C22CB614600594390 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CD78FC0A22CB614500594390 /* Resnet50.mlmodel */; };
+		CD78FC0D22CB614600594390 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CD78FC0B22CB614500594390 /* SqueezeNet.mlmodel */; };
 		CD7EDCAA22CAD97800FE0E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EDCA922CAD97800FE0E63 /* AppDelegate.swift */; };
 		CD7EDCAC22CAD97800FE0E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EDCAB22CAD97800FE0E63 /* ViewController.swift */; };
 		CD7EDCAF22CAD97800FE0E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7EDCAD22CAD97800FE0E63 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD78FC0A22CB614500594390 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		CD78FC0B22CB614500594390 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		CD7EDCA622CAD97800FE0E63 /* ObjectDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7EDCA922CAD97800FE0E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7EDCAB22CAD97800FE0E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				CD7EDCA922CAD97800FE0E63 /* AppDelegate.swift */,
+				CD78FC0A22CB614500594390 /* Resnet50.mlmodel */,
+				CD78FC0B22CB614500594390 /* SqueezeNet.mlmodel */,
 				CD7EDCAB22CAD97800FE0E63 /* ViewController.swift */,
 				CD7EDCAD22CAD97800FE0E63 /* Main.storyboard */,
 				CD7EDCB022CAD97C00FE0E63 /* Assets.xcassets */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7EDCAC22CAD97800FE0E63 /* ViewController.swift in Sources */,
+				CD78FC0C22CB614600594390 /* Resnet50.mlmodel in Sources */,
 				CD7EDCAA22CAD97800FE0E63 /* AppDelegate.swift in Sources */,
+				CD78FC0D22CB614600594390 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
